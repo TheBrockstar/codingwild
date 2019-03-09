@@ -5,13 +5,14 @@ import './App.css';
 // Components
 import Header from './components/Global/Header';
 import Footer from './components/Global/Footer';
+import Landing from './components/Landing/'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header/>
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             DON'T Edit <code>src/App.js</code> and save to reload.
@@ -24,7 +25,8 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </header> */}
+        <Landing/>
         <Footer/>
       </div>
     );

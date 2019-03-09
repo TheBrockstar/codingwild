@@ -51,11 +51,16 @@ header.full-width-container {
   position: fixed;
 }
 
+.full-width-container .wrapper {
+  width: 90%;
+  max-width: 1260px;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 86%;
   max-width: 1080px;
 }
 
@@ -88,3 +93,19 @@ footer .wrapper {
   justify-content: center;
   font-weight: bold;
 }
+
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-image: url("./images/hero-banner.jpg");
+  background-size: cover;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .hero-banner {
+    background-position: 50% 30%;
+  }
+} 
