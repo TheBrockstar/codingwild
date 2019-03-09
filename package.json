@@ -1,0 +1,11 @@
+{
+  "name": "codingwild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TheBrockstar/codingwild.git",
+  "author": "Brock Maraee Rohloff <00AgentB@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^2.1.8"
+  }
+}
