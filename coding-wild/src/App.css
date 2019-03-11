@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+h2 {
+  text-align: left;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -40,7 +44,6 @@
 .full-width-container {
   width: 100%;
   margin: auto;
-  background-color: #61dafb;
   height: 60px;
   display: flex;
   align-items: center;
@@ -48,7 +51,9 @@
 }
 
 header.full-width-container {
+  background-color: #61dafb;
   position: fixed;
+  border-bottom: 3px ridge #282c34;
 }
 
 .full-width-container .wrapper {
@@ -87,6 +92,11 @@ header.full-width-container {
   border-bottom: 3px solid #282c34;
 }
 
+footer {
+  background-color: #282c34;
+  color: #61dafb;
+}
+
 
 footer .wrapper {
   display: flex;
@@ -102,6 +112,28 @@ footer .wrapper {
   background-image: url("./images/hero-banner.jpg");
   background-size: cover;
 
+}
+
+.work-flow {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  background-color: ghostwhite;
+}
+
+.work-flow .flowbox {
+  width: 24%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgrey;
+}
+
+.work-flow .arrow {
+  font-size: 40px;
+  color: lightgrey;
+  user-select: none;
 }
 
 @media screen and (min-width: 1000px) {
