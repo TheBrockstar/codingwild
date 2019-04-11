@@ -111,7 +111,11 @@ footer .wrapper {
   height: 600px;
   background-image: url("./images/hero-banner.jpg");
   background-size: cover;
+}
 
+.hero-banner .wrapper {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .work-flow {
@@ -141,3 +145,14 @@ footer .wrapper {
     background-position: 50% 30%;
   }
 } 
+
+.sign-up {
+  background-color: rgb(230, 230, 255, .3);
+  border: 5px solid ghostwhite;
+  padding: 10px 15px;
+  color: ghostwhite;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}

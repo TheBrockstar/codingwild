@@ -9,6 +9,7 @@ class Landing extends Component {
             <h2>
               Code like you've never coded before. <br/> Code wild.
             </h2>
+            <button className="sign-up">Sign Up</button>
           </div>
         </section>
 
